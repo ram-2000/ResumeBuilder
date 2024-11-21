@@ -1,0 +1,41 @@
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+    {\textbf{United Health Group}}{May 2023 -- Oct 2024}
+    {\textit{Software Enigneer II}}{}
+    \resumeItemListStart
+        \resumeItem{Designed and implemented scalable \textbf{microservices-based architecture} using \textbf{Go}, \textbf{Ruby on Rails}, and \textbf{TypeScript} to enhance logistics and inventory management systems, improving operational efficiency by \textbf{35\%}.}
+        \resumeItem{Deployed and maintained \textbf{Dockerized services} in \textbf{Kubernetes clusters} to streamline application deployment, scaling, and monitoring for real-time warehouse data processing, improving system uptime by \textbf{99.9\%}.}
+        \resumeItem{Integrated \textbf{Redis} and \textbf{Memcached} as caching layers to reduce database load and enhance performance in high-traffic applications, achieving a \textbf{40\% reduction} in response time.}
+        \resumeItem{Optimized \textbf{PostgreSQL} and \textbf{NoSQL databases} to handle up to \textbf{1 million daily transactions}, ensuring data consistency and query speed through index tuning and replication strategies.}
+        \resumeItem{Led a cross-functional team to integrate \textbf{Kafka} and \textbf{RabbitMQ} for reliable messaging in event-driven architecture, improving system reliability and reducing message processing times by \textbf{50\%}.}
+        \resumeItem{Collaborated with DevOps teams to implement a \textbf{CI/CD pipeline} using \textbf{Jenkins}, enabling automated testing, and improving code deployment speed by \textbf{60\%}.}
+        \resumeItem{Implemented comprehensive monitoring and alerting systems using \textbf{Prometheus} and \textbf{Grafana}, which resulted in proactive identification and resolution of performance issues, reducing downtime by \textbf{20\%}.}
+    \resumeItemListEnd
+
+
+\resumeSubheading
+    {\textbf{Apple}}{}
+    {\textit{Specialist Programmer}}{Aug 2021 -- Aug 2022}
+    \resumeItemListStart
+        \resumeItem{\textbf{Developed} a highly scalable \textbf{Request Management Tool} using \textbf{Java} and \textbf{React} for \textbf{Apple’s internal network}, resulting in a \textbf{20\% increase in user engagement} across departments.}
+        \resumeItem{\textbf{Optimized database queries} to reduce response times by \textbf{25\%}, significantly enhancing the overall performance and scalability of the application.}
+        \resumeItem{\textbf{Led the migration} of legacy systems to a \textbf{modern microservices architecture}, improving system reliability, scalability, and long-term maintainability.}
+        \resumeItem{Integrated \textbf{Redis} for efficient caching and to ensure high performance during peak traffic periods, reducing response times and improving user experience.}
+        \resumeItem{Designed and implemented an advanced \textbf{CI/CD pipeline using Jenkins}, reducing deployment times by \textbf{30\%} and increasing development velocity.}
+    \resumeItemListEnd
+
+
+\resumeSubheading
+    {\textbf{CommerceIQ}}{}
+    {\textit{Software Development Engineer}}{Jan 2019 -- May 2021}
+    \resumeItemListStart
+        \resumeItem{Contributed to the development of a \textbf{real-time analytics platform} for processing e-commerce transactions using \textbf{Java}, \textbf{Python}, and \textbf{Kafka}, improving the accuracy of data insights for \textbf{50,000 daily users}.}
+        \resumeItem{Assisted in implementing an \textbf{event-driven architecture} with \textbf{Apache Kafka} to manage real-time data streams, successfully handling \textbf{1 million events daily}.}
+        \resumeItem{Collaborated with senior developers to optimize cloud infrastructure on \textbf{AWS}, including load balancing and auto-scaling, leading to a \textbf{40\% increase in system reliability}.}
+        \resumeItem{Worked on containerizing applications with \textbf{Docker} and deploying them to \textbf{Kubernetes}, contributing to improved scalability and a \textbf{25\% reduction in operational costs}.}
+        \resumeItem{Supported the creation of a \textbf{CI/CD pipeline using Jenkins}, automating testing and deployment processes, and reducing the time for new releases by \textbf{50\%}.}
+    \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd

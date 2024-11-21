@@ -1,0 +1,5 @@
+\section{Skills}
+\resumeSubHeadingListStart
+    \resumeSubItem{\textbf{Languages:} Java, NodeJS, JavaScript, C, C++, Python, SQL}
+    \resumeSubItem{\textbf{Tools/Frameworks:} React, Angular, Express, Django, Flask, Spring Boot, Jenkins, Docker, Kubernetes, AWS, Azure, Git}
+\resumeSubHeadingListEnd

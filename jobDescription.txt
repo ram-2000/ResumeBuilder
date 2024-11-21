@@ -1,0 +1,16 @@
+Description
+We are actively recruiting a Staff Backend Engineer to help revolutionize the way people own and collect. At Courtyard.io, you’ll play a critical role in scaling the backend systems that power our leading collectibles marketplace. You will join a lean and experienced remote-first team of engineers that prioritizes technical ingenuity, authentic communication, and a get-it-done attitude. You’ll own core parts of our infrastructure and work directly with the Head of Engineering, CTO, and other stakeholders to shape our technical roadmap. You will work with Go, Postgres, and Terraform, helping us maintain a reliable and scalable platform as we continue to grow rapidly.
+
+About You
+You are passionate about building high-performance, scalable backend systems and thrive in a fast-paced, collaborative environment.
+6+ years of experience in designing and building large and complex (yet maintainable) systems, and ability to do so faster than most competent people think possible.
+Deep understanding of systems architecture, APIs, and infrastructure
+Experience working with relational databases (Postgres preferred) and designing efficient queries.
+Proficiency with writing useful tests and utilizing monitoring tools, and a well thought-out philosophy about the place of monitoring and testing in a frontend codebase
+Familiarity with infrastructure as code tools (Terraform preferred) and deploying applications to public cloud providers (AWS, Google Cloud, etc.).
+Strong testing and CI/CD practices.
+You take ownership of your work with a leadership mindset, demonstrating initiative, accountability, and the ability to drive projects forward independently.
+Proven ability to work independently on a remote-first team, with experience in asynchronous communication. Top-notch communication skills are essential.
+About Courtyard.io
+Courtyard.io is the fastest-growing company in the collectibles space, growing 60% month over month with over $4.5M in monthly volume ($54M/year), and this is just the beginning. Learn more about us here and there. You can expect to work with talented, motivated, intense and interesting teammates in a fast-paced environment. We provide competitive salaries and equity ownership.
+

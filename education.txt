@@ -1,0 +1,9 @@
+\section{Education}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{University of Dayton}{Ohio, USA}
+  	{Master of Science in Computer Engineering}{Aug 2022 -- May 2024}
+	\resumeSubheading
+  	{Andhra University}{Andhra Pradesh, India}
+  	{Bachelor of Technology in Computer Science}{Aug 2017 -- May 2021}
+  \resumeSubHeadingListEnd

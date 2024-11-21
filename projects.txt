@@ -1,0 +1,10 @@
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Metron Object Size Estimator} $|$ \emph{Java, Python, XML, AWS}}{Aug 2019 -- Jan 2021}
+    \resumeItemListStart
+      \resumeItem{Engineered 'Metron', an app using Java and Python on AWS to accurately estimate object sizes from images captured via mobile cameras, leveraging OpenCV for image processing.}
+      \resumeItem{Implemented AWS Lambda and S3 for scalable backend processing, and utilized XML for the intuitive app interface, enhancing user interaction and data management.}
+      \resumeItem{Designed and deployed real-time size calculation using the Pixel Per Metric ratio, ensuring robust measurement accuracy under varying imaging conditions.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd

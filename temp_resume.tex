@@ -1,0 +1,152 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+	{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  	\textbf{#1} & \textbf{\small #2} \\
+  	\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+  	\small#1 & \textbf{\small #2}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+% \newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+	{\Huge \scshape Shiva Narayana Abhiram Maddala} \\ \vspace{1pt}
+	\small +1 (937) 269-4852 $|$ \href{mailto:abhiram2maddala@gmail.com}{\underline{abhiram2maddala@gmail.com}}
+\end{center}
+
+
+
+
+
+    \section{Skills}
+    \resumeSubHeadingListStart
+        \resumeSubItem{\textbf{Languages:} Go, Ruby, TypeScript, Java, Python}
+        \resumeSubItem{\textbf{Tools/Frameworks:} Docker, Kubernetes, Redis, Memcached, PostgreSQL, NoSQL, Kafka, RabbitMQ, Jenkins, Prometheus, Grafana, React}
+    \resumeSubHeadingListEnd
+    
+
+\section{Work Experience}
+                \resumeSubHeadingListStart
+        \resumeSubheading
+        {\textbf{United Health Group}}{}
+        {\textit{Software Enigneer II}}{May 2023 -- Oct 2024}
+        \resumeItemListStart
+            \resumeItem{Designed and implemented a scalable microservices-based architecture using Go, Ruby on Rails, and TypeScript to enhance logistics and inventory management systems, improving operational efficiency by 35\%.}
+\resumeItem{Deployed and maintained Dockerized services in Kubernetes clusters to streamline application deployment, scaling, and monitoring for real-time warehouse data processing, improving system uptime by 99.9\%.}
+\resumeItem{Integrated Redis and Memcached as caching layers to reduce database load and enhance performance in high-traffic applications, achieving a 40\% reduction in response time.}
+\resumeItem{Optimized PostgreSQL and NoSQL databases to handle up to 1 million daily transactions, ensuring data consistency and query speed through index tuning and replication strategies.}
+\resumeItem{Led a cross-functional team to integrate Kafka and RabbitMQ for reliable messaging in event-driven architecture, improving system reliability and reducing message processing times by 50\%.}
+        \resumeItemListEnd
+        
+        \resumeSubheading
+        {\textbf{Apple}}{}
+        {\textit{Specialist Programmer}}{Aug 2021 -- Aug 2022}
+        \resumeItemListStart
+            \resumeItem{Developed a highly scalable Request Management Tool using Java and React for Apple’s internal network, resulting in a 20\% increase in user engagement across departments.}
+\resumeItem{Optimized database queries to reduce response times by 25\%, significantly enhancing the overall performance and scalability of the application.}
+\resumeItem{Led the migration of legacy systems to a modern microservices architecture, improving system reliability, scalability, and long-term maintainability.}
+\resumeItem{Integrated Redis for efficient caching and to ensure high performance during peak traffic periods, reducing response times and improving user experience.}
+\resumeItem{Designed and implemented an advanced CI/CD pipeline using Jenkins, reducing deployment times by 30\% and increasing development velocity.}
+        \resumeItemListEnd
+        
+        \resumeSubheading
+        {\textbf{CommerceIQ}}{}
+        {\textit{Software Development Engineer}}{Jan 2019 -- May 2021}
+        \resumeItemListStart
+            \resumeItem{Contributed to the development of a real-time analytics platform for processing e-commerce transactions using Java, Python, and Kafka, improving the accuracy of data insights for 50,000 daily users.}
+\resumeItem{Assisted in implementing an event-driven architecture with Apache Kafka to manage real-time data streams, successfully handling 1 million events daily.}
+\resumeItem{Collaborated with senior developers to optimize cloud infrastructure on AWS, including load balancing and auto-scaling, leading to a 40\% increase in system reliability.}
+\resumeItem{Worked on containerizing applications with Docker and deploying them to Kubernetes, contributing to improved scalability and a 25\% reduction in operational costs.}
+\resumeItem{Supported the creation of a CI/CD pipeline using Jenkins, automating testing and deployment processes, and reducing the time for new releases by 50\%.}
+        \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+\section{Projects}
+                \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{Secure Microservices Architecture for E-commerce Platform} $|$ \emph{Go, Docker, Kubernetes, Kafka, Redis}}{Aug 2023 - Present}
+            \resumeItemListStart
+                \resumeItem{Designed and implemented a secure microservices architecture using Go, Docker, and Kubernetes to improve the scalability and reliability of an e-commerce platform.}
+\resumeItem{Integrated Kafka for real-time data streaming and Redis for caching to enhance performance and reduce latency.}
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+
+    \section{Education}
+      \resumeSubHeadingListStart
+        \resumeSubheading
+          {University of Dayton}{Ohio, USA}
+          {Master of Science in Computer Engineering}{Aug 2022 -- May 2024}
+        \resumeSubheading
+          {Andhra University}{Andhra Pradesh, India}
+          {Bachelor of Technology in Computer Science}{Aug 2017 -- May 2021}
+      \resumeSubHeadingListEnd
+    
+
+\end{document}
