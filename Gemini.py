@@ -10,6 +10,7 @@ import time
 from groq import Groq
 from groq import AsyncGroq
 import asyncio
+import Constants
 
 log_file = "resume_generation.log"
 logging.basicConfig(
@@ -23,10 +24,11 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Set up environment variable for API key
-os.environ['GEMINI_API_KEY'] = ""
+# os.environ['GEMINI_API_KEY'] = ""
 
 
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+# genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+genai.configure(api_key=Constants.GEMINI_API_KEY)
 client = AsyncGroq(api_key=os.environ.get("GROQ_API_KEY"))
 
 def validate_latex_format(text):

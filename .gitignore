@@ -1,3 +1,7 @@
+# files to be ignored
+/Constants.py
+
+
 # Dependencies
 node_modules/
 vendor/
